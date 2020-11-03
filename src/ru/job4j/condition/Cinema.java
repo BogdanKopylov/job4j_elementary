@@ -24,7 +24,6 @@ public class Cinema {
         Cinema.access(21);
         Cinema.access(16);
         Cinema.access(-8);
-
         permission(true, true);
         permission(true, false);
         permission(false, true);

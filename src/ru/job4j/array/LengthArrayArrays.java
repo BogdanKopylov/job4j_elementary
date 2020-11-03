@@ -6,6 +6,5 @@ public class LengthArrayArrays {
         for (int[] num : nums) {
             System.out.println(num.length);
         }
-
     }
 }

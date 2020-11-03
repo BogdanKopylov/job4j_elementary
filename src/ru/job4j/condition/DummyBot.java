@@ -4,7 +4,6 @@ package ru.job4j.condition;
         public static String answer(String question) {
             String rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
             if ("Привет, Бот.".equals(question)) {
-                /* заменить ... на правильный ответ rsl = "ответ по заданию". */
                 rsl = "Привет, умник.";
             } else if (question.equals("Пока.")) {
                 rsl = "До скорой встречи.";
